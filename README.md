@@ -6,6 +6,7 @@
 ## 功能
 
 - `.ci` 文件识别与语法高亮
+- 代码片段（Snippets）：提供 `if/ife/fori/while/whilet/select/func/funcfull` 等常用模板
 - 格式化：Tab 缩进 + 一行一语句（按 `;` 拆分）
 - 注释保留：`//`、`!`、`/* ... */`
 - 字符串高亮：双引号字符串，字符串内双引号使用 `""` 表示；反斜杠不作为通用转义（兼容 Windows 路径末尾 `\`）
@@ -22,6 +23,7 @@
 
 - 打开 `.ci` 文件（语言会识别为 `Cicode`）
 - 需要格式化时使用：`Format Document` / `Alt+Shift+F`
+- 输入代码片段触发词并按 `Tab` 展开模板（详情见 `docs/snippets.md`）
 
 ## 格式化规则
 
