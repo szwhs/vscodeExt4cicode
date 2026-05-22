@@ -1,6 +1,7 @@
 # Citect Cicode（VS Code 扩展）
 
 用于 VS Code 的 Citect Cicode 语法高亮与格式化扩展。
+主要解决citect cicode 打开文件慢，没有代码折叠，代码分析和查找不方便的问题。
 
 ## 功能
 
