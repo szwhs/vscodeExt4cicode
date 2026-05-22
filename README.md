@@ -6,6 +6,7 @@
 ## 功能
 
 - `.ci` 文件识别与语法高亮
+- 文件列表与过滤：侧边栏提供 “Cicode 文件” 视图仅列出指定后缀文件；并提供命令一键切换 Explorer 仅显示指定后缀文件
 - 代码片段（Snippets）：提供 `ci.if/ci.ife/ci.fori/ci.while/ci.whilet/ci.select/ci.func/ci.funcfull` 等常用模板（降低与自动补全冲突）
 - 格式化：Tab 缩进 + 一行一语句（按 `;` 拆分）
 - 注释保留：`//`、`!`、`/* ... */`
@@ -24,6 +25,9 @@
 - 打开 `.ci` 文件（语言会识别为 `Cicode`）
 - 需要格式化时使用：`Format Document` / `Alt+Shift+F`
 - 输入代码片段触发词并按 `Tab` 展开模板（详情见 `docs/snippets.md`）
+- 只想专注查看指定后缀文件时：
+  - 在资源管理器中查看 “Cicode 文件” 视图（默认仅列出 `.ci`）
+  - 命令面板执行：`Cicode: 仅显示指定后缀文件（切换 Explorer）`（再次执行可恢复原设置）
 
 ## 格式化规则
 
