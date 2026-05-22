@@ -6,7 +6,7 @@
 ## 功能
 
 - `.ci` 文件识别与语法高亮
-- 代码片段（Snippets）：提供 `if/ife/fori/while/whilet/select/func/funcfull` 等常用模板
+- 代码片段（Snippets）：提供 `ci.if/ci.ife/ci.fori/ci.while/ci.whilet/ci.select/ci.func/ci.funcfull` 等常用模板（降低与自动补全冲突）
 - 格式化：Tab 缩进 + 一行一语句（按 `;` 拆分）
 - 注释保留：`//`、`!`、`/* ... */`
 - 字符串高亮：双引号字符串，字符串内双引号使用 `""` 表示；反斜杠不作为通用转义（兼容 Windows 路径末尾 `\`）
